@@ -32,7 +32,7 @@ void Task::tick()
 }
 
 void Scheduler::runOs()
-/* 	the current scheduling algorithm is not efficient. 
+/*	the current scheduling algorithm is not efficient.
 	should do this way: sort the tasks regarding its priorities,
 	then search the first ready task, and finishes at the end of its priority.
 	when a task changes its priority, re-sort the whole list.
